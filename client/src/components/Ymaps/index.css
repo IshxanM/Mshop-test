@@ -1,0 +1,17 @@
+input {
+  width: 100%;
+  color: black;
+}
+
+.input__wrapper_show-dropdown .ymaps-2-1-79-search__suggest {
+  display: block !important;
+  color: black;
+}
+
+.input__wrapper_hide-dropdown .ymaps-2-1-79-search__suggest {
+  display: none !important;
+  color: black;
+}
+.address-inp {
+  border-radius: 10px;
+}

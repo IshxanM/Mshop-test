@@ -1,0 +1,31 @@
+.page__name {
+  display: flex;
+  justify-content: center;
+}
+.page__content {
+  /* margin-left: 55px; */
+}
+.btn__type {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 10px !important;
+}
+.getType__body {
+  display: flex;
+  margin-top: 45px;
+  justify-content: center;
+}
+.type__icon_btn {
+  display: flex;
+  align-items: center;
+}
+.type__icon_btn button {
+  margin-left: 15px;
+}
+.page__content select {
+  margin-bottom: 20px;
+}
+.btn__type-body {
+  display: flex;
+  justify-content: center;
+}

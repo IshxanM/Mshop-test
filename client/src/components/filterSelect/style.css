@@ -1,0 +1,10 @@
+.filter_select {
+  max-width: 300px;
+  float: right;
+}
+@media (max-width: 400px) {
+  .filter_select {
+    max-width: 150px;
+    float: right;
+  }
+}

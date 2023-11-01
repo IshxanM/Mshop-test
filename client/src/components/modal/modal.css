@@ -1,0 +1,23 @@
+.input__body {
+  display: flex;
+  flex-direction: column;
+}
+.save__edit_info {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 5px 5px 5px;
+}
+.save__edit_info button {
+  margin: 10px 0px;
+}
+.update__body {
+  display: flex;
+  flex-direction: column;
+}
+.update__info {
+  display: flex;
+  align-items: center;
+}
+.update__info label {
+  margin: 5px 10px 5px 5px;
+}

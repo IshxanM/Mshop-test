@@ -1,0 +1,46 @@
+.device_page_body {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.device__img img {
+  max-width: clamp(15.625rem, 13.542rem + 11.11vw, 21.875rem);
+  object-fit: cover;
+  border-radius: 20px;
+}
+.device__img {
+  margin: 10px;
+  max-width: 500px;
+}
+.device__right_info {
+  margin: 10px;
+  max-width: clamp(15.625rem, 13.542rem + 11.11vw, 21.875rem);
+  /* border: 2px solid rgb(19, 18, 18); */
+  /* align-items: center; */
+}
+.device__name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.device__price {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.icon-star-device {
+  width: 26px;
+  margin-right: 7px;
+}
+.card-img {
+  object-fit: contain !important;
+}
+.device__rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

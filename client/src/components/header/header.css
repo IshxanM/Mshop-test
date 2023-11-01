@@ -1,0 +1,22 @@
+* {
+  list-style: none;
+}
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+.header__link:hover {
+  color: rgb(194, 184, 184);
+  text-decoration: underline;
+}
+.mr {
+  margin-right: 10px;
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,22 @@
+.carusel__img {
+  width: 100%;
+  height: clamp(10.625rem, 4.625rem + 30vw, 29.375rem);
+}
+.carusel__item {
+  width: 100%;
+  height: clamp(10.625rem, 4.625rem + 30vw, 29.375rem);
+}
+/* .carusel__img img {
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: cover;
+} */
+/* .carusel__img img {
+  height: clamp(10.813rem, 7.813rem + 15vw, 20rem);
+} */
+.carusel__img img {
+  width: 100%;
+  /* max-height: 50%; */
+  object-fit: cover;
+  /* min-height: 283px; */
+}
