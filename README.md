@@ -4,16 +4,16 @@
 ## Описание проекта:
 Интернет-магазин цифровой и бытовой техники. Реализовал с помощью библиотеки [React js](https://react.dev/) и библиотек готовых компонентов и стилей [Material UI](https://mui.com/) и [React-Bootstrap](https://react-bootstrap.github.io/). 
 
-Сереверная часть была реализованна на фреймворке [Express js](https://expressjs.com/ru/). В качестве БД использовал [PostgreSQL](https://www.postgresql.org/)
+Сереверная часть была реализованна на фреймворке [Express js](https://expressjs.com/ru/). В качестве БД использовал [PostgreSQL 15](https://www.postgresql.org/)
 
 Интернет магазин состоит из клиентской и административной части. Была реализованна функция Регистрации/Авторизации.
 _____
 <p>Клиентская часть.</p>
-<img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/localhost_3000_.png" width="300"/>.
+<img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/client.png" width="300"/>.
 
 -------
 <p>Администритивная часть.</p>
-<img alt="Администритивная часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/localhost_3000_admin_createDevice%20(1).png" width="300"/>.
+<img alt="Администритивная часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/admin.png" width="300"/>.
 
 _______
 
@@ -39,3 +39,33 @@ _____
 2. Добавление/редактирование/удаление типов.
 3. Добавление/редактирование/удаление брендов.
 4. Просмотр/подтверждение/отмена заказов пользователей.
+
+______
+## Подготовительные действия
+Чтобы развернуть проект, клонируем этот репозиторий к себе на компьютер, в директорию Mshop
+```
+git clone https://github.com/IshxanM/Mshop-test.git Mshop
+```
+Далее нужно скачать и установить [PostgreSQL 15](https://www.postgresql.org/download/) и pgAdmin (они устанавливаются вместе)
+
+После установки необходимо зайти в приложение pgAdmin и создать БД с названием Mshop
+
+<p>Создание БД.</p>
+<img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/createBD.JPG" width="300"/>.
+
+------
+<p>Создание БД 2.</p>
+<img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/createBD2.JPG" width="300"/>.
+
+После того как написали название БД нужно нажать на кнопку "Save"
+______
+
+Далее необходимо нажать правой кнопкой мыши на ранее созданном БД и выбрать пункт "Restore"
+
+<img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/import.png" width="300"/>.
+
+Далее необходимо выбрать формат "Custom or tar", в поле "Filename" необходимо нажать на иконку папки, затем выбрать дирректорию с проектом, в папке БД нажать "Все файлы *" и выбрать файл "BD_Mshop", нажать на кнопку "Restore"
+
+<img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/import2.JPG" width="500"/>.
+
+
