@@ -67,5 +67,46 @@ ______
 Далее необходимо выбрать формат "Custom or tar", в поле "Filename" необходимо нажать на иконку папки, затем выбрать дирректорию с проектом, в папке БД нажать "Все файлы *" и выбрать файл "BD_Mshop", нажать на кнопку "Restore"
 
 <img alt="Клиентская часть" src="https://github.com/IshxanM/Mshop-test/blob/main/БД/assets/import2.JPG" width="500"/>.
+________
 
+### Далее заходим в редактор кода
 
+Имя БД и логин-пароль прописывам в server/.env
+____
+*DB_PASSWORD это пароль который вы вводили при установке pgAdmin. В моём случаи это "admin".
+____
+```
+PORT= 3002
+DB_NAME=Mshop
+DB_USER=postgres
+DB_PASSWORD=admin
+DB_HOST=localhost
+DB_PORT=5432
+SECRET_KEY=secret123
+REACT_APP_API_URL_FROM_SERVER = http://localhost:3000/
+```
+________
+В папке client/.env прописываем 
+```
+REACT_APP_API_URL=http://localhost:3002/
+REACT_APP_API_YANDEX_KEY="357710ac-ca1f-405d-bf90-f3b6acae35f7"
+```
+______
+Переходим в директорию Mshop/server, устанавливаем пакеты и запускаем сервер
+```
+npm install
+npm run dev
+```
+_____
+Переходим в директорию Mshop/client, устанавливаем пакеты и запускаем клиент
+```
+npm install
+npm start
+```
+______
+
+База данных содержит несколько пользователей, как обычных, так и с правами администратора
+
+1. Пользователь User@mail.ru, пароль 123456
+
+2. Администртор admin@mail.ru, пароль 123456
