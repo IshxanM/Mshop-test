@@ -103,7 +103,54 @@ _____
 npm install
 npm start
 ```
-Если возникнет ошибка с библиотекой Material ui, то введите следующую команду в терминал
+Если возникнет такая ошибка с библиотекой Material ui,
+```js
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: @material-ui/core@4.12.4
+npm ERR! Found: react@18.2.0
+npm ERR! node_modules/react
+npm ERR!   react@"^18.2.0" from the root project
+npm ERR!   peer react@">=16.8.0" from @emotion/react@11.11.1
+npm ERR!   node_modules/@emotion/react
+npm ERR!     @emotion/react@"^11.11.1" from the root project
+npm ERR!     peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.11.0
+npm ERR!     node_modules/@emotion/styled
+npm ERR!       @emotion/styled@"^11.11.0" from the root project
+npm ERR!       3 more (@mui/material, @mui/styled-engine, @mui/system)      
+npm ERR!     3 more (@mui/material, @mui/styled-engine, @mui/system)        
+npm ERR!   60 more (@emotion/styled, ...)
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4      
+npm ERR! node_modules/@material-ui/core
+npm ERR!   @material-ui/core@"^4.12.4" from the root project
+npm ERR!   peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.3
+npm ERR!   node_modules/@material-ui/icons
+npm ERR!     @material-ui/icons@"^4.11.3" from the root project
+npm ERR!   1 more (material-ui-confirmation)
+npm ERR!
+npm ERR! Conflicting peer dependency: react@17.0.2
+npm ERR! node_modules/react
+npm ERR!   peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.12.4
+npm ERR!   node_modules/@material-ui/core
+npm ERR!     @material-ui/core@"^4.12.4" from the root project
+npm ERR!     peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.3
+npm ERR!     node_modules/@material-ui/icons
+npm ERR!       @material-ui/icons@"^4.11.3" from the root project
+npm ERR!     1 more (material-ui-confirmation)
+npm ERR!
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR!
+npm ERR! See C:\Users\ISHXAN\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\ISHXAN\AppData\Local\npm-cache\_logs\2023-11-02T09_34_53_650Z-debug-0.log
+```
+то введите следующую команду в терминал
 ```
 npm install @material-ui/core --force
 ```
